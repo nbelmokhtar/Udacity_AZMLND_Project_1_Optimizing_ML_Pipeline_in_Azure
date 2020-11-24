@@ -39,4 +39,4 @@ We also use **BanditPolicy** which defines an early termination policy based on 
 ## Proof of cluster clean up
 Before closing the experiment, we cleaned up the resources we used on Azure cloud.
 
-![Cluster clean up](images/creating-and-optimizing-an-ml-pipeline.png)
+![Cluster clean up](images/ClusterCleanup.PNG)
