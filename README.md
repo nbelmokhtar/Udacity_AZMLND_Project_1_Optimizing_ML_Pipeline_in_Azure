@@ -14,7 +14,7 @@ The <a href="https://automlsamplenotebookdata.blob.core.windows.net/automl-sampl
 
 We create and optimize the hyperparameters of a standard Scikit-learn Logistic Regression using **HyperDrive**. We also use **AutoML** to build and optimize a model on the same dataset, so that we can compare the results of the two methods.
 
-We performed 20 runs to find the best hyperparameters using HyperDrive and the highest reported accuracy was **90.72%**. Similarly, we reached 55 iterations using the AutoML and the best performing model was 'Voting Ensemble', which achieved an accuracy of **91.77%**.
+We performed 20 runs to find the best hyperparameters using HyperDrive and the highest reported accuracy was **90.72%**. Similarly, we reached 55 iterations using the AutoML and the best performing model was **Voting Ensemble**, which achieved an accuracy of **91.77%**.
 
 ## Scikit-learn Pipeline
 The pipeline architecture consists of optimizing (tuning) the hyperparameters of a logistic regression binary classification model using HyperDrive. We start by setting up a training script **'train.py'**, were we create a dataset, train and evaluate a logistic regression model from Scikit-learn. Then, we use Jupyter Notebook and Azure ML Python SDK to get the workspace and experiment objects running, and build the training pipeline - from creating a computer cluster, to HyperDrive, to runnning the 'train.py'.
@@ -34,6 +34,7 @@ We also use **BanditPolicy** which defines an early termination policy based on 
 
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
+Although the performance of AutoML (Voting Ensemble) was slightly better than HyperDrive, it didn't demonstrate a significant improvement (**1.05%**).
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
