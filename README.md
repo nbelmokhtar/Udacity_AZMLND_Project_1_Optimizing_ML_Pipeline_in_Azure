@@ -51,7 +51,9 @@ Although the performance of AutoML (Voting Ensemble) was slightly better than Hy
 AutoML is definitely better than HyperDrive in terms of architecture since we can create hundreds of models a day, get better model accuracy and deploy models faster. 
 
 ## Future work
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
+It can be clearly seen that the data is highly imbalanced (88.80% is labeled **NO** and 11.20% is labeled **YES**). This imbalance can be handled by using K-fold Cross-Validation in the right way.
+
+We can also tune other hyperparameters used in Sklearn Logistic Regression in order to achieve better results in the future. Using different parameter sampling techniques and tuning the arguments of the BanditPolicy can also prove fruitful.
 
 ## Proof of cluster clean up
 Before closing the experiment, we cleaned up the resources we used on Azure cloud.
