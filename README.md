@@ -23,7 +23,7 @@ We use two of the most important hyperparameters of Sklearn Logistic Regression 
 	--C (float, default: 1.0) – Inverse of regularization strength; must be a positive float; smaller values specify stronger regularization.
 	--max_iter (int, default: 100) – Maximum number of iterations taken for the solvers to converge.
 
-We use RandomParameterSampling method over the hyperparameter search space to randomly select values for C (uniform distribution) and max_iter (choice among discrete values) hyperparameters. Random sampling supports both discrete and continuous hyperparameters. This allows us to refine the search space to improve results.
+We use RandomParameterSampling method over the hyperparameter search space to randomly select values for C (uniform distribution) and max_iter (choice among discrete values) hyperparameters. Random sampling supports both discrete and continuous hyperparameters and allows us to refine the search space to improve results.
 
 **What are the benefits of the early stopping policy you chose?**
 
