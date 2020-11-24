@@ -55,6 +55,8 @@ It can be clearly seen that the data is highly imbalanced (88.80% is labeled **N
 
 We can also tune other hyperparameters used in Sklearn Logistic Regression in order to achieve better results in the future. Using different parameter sampling techniques and tuning the arguments of the BanditPolicy can also prove fruitful.
 
+About the AutoML, we would like to tune more config parameters; increasing experiment timeout minutes will enable us to test more models and thus improving the performance.
+
 ## Proof of cluster clean up
 Before closing the experiment, we cleaned up the resources we used on Azure cloud.
 
