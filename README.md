@@ -37,5 +37,6 @@ We also use **BanditPolicy** which defines an early termination policy based on 
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
 ## Proof of cluster clean up
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
-**Image of cluster marked for deletion**
+Before closing the experiment, we cleaned up the resources we used on Azure cloud.
+
+![Cluster clean up](images/creating-and-optimizing-an-ml-pipeline.png)
