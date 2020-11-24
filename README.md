@@ -14,7 +14,7 @@ The <a href="https://automlsamplenotebookdata.blob.core.windows.net/automl-sampl
 
 We create and optimize the hyperparameters of a standard Scikit-learn Logistic Regression using HyperDrive. We also use AutoML to build and optimize a model on the same dataset, so that we can compare the results of the two methods.
 
-We performed 20 runs to find the best hyperparameters using HyperDrive and the highest reported accuracy was 90.72%. Similarly, we reached 55 iterations using the AutoML and the best performing model was Voting Ensemble, which achieved an accuracy of 91.77%.
+We performed 20 runs to find the best hyperparameters using HyperDrive and the highest reported accuracy was '90.72%'. Similarly, we reached 55 iterations using the AutoML and the best performing model was 'Voting Ensemble', which achieved an accuracy of '91.77%'.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
