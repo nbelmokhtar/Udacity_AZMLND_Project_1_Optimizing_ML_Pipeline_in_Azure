@@ -10,9 +10,11 @@ The diagram below shows the main steps of creating and optimizing an ML pipeline
 ![Diagram](images/creating-and-optimizing-an-ml-pipeline.png)
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+The <a href="https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv">dataset</a> used in this project is related to direct marketing campaigns of a banking institution, which were based on on phone calls. The purpose here is to produce the best model to predict if the client will subscribe (yes/no) a term deposit (target variable "y"). This will go a long way to improve future marketing campaigns for the bank as it will predict the likelihood of a client to subscibe to a product that is being adverstised.
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+We create and optimize the hyperparameters of a standard Scikit-learn Logistic Regression using HyperDrive. We also use AutoML to build and optimize a model on the same dataset, so that we can compare the results of the two methods.
+
+We performed 20 runs to find the best hyperparameters using HyperDrive; the highest reported accuracy was 90.72%. Similarly, we reached 55 iterations using the AutoML and he best performing model was Voting Ensemble, which achieved an accuracy of 91.77%.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
